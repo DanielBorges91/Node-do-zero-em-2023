@@ -2,8 +2,8 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "title": "Video 01",
-    "description": "Esse é o primeiro video",
+    "title": "Node 3",
+    "description": "Esse é o terceiro video",
     "duration": 180
 }
 ###
@@ -11,15 +11,18 @@ Content-Type: application/json
 GET http://localhost:3333/videos
 ###
 
-PUT http://localhost:3333/videos/4c601e72-a4a2-4a25-852c-91438de34552
+GET http://localhost:3333/videos?search=Node
+###
+
+PUT http://localhost:3333/videos/4c2fa05d-f27a-4192-a0ca-ed44cbffbb9f
 Content-Type: application/json
 
 {
-    "title": "Video Daniel Borges",
-    "description": "Esse é o primeiro video",
+    "title": "Video ReactJS",
+    "description": "Novo video Reactjs",
     "duration": 180
 }
 ###
-DELETE  http://localhost:3333/videos/4c601e72-a4a2-4a25-852c-91438de34552
+DELETE  http://localhost:3333/videos/37240cca-4ae1-45df-9a66-54fb2d62247b	
 
 
