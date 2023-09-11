@@ -2,8 +2,8 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "title": "Node 3",
-    "description": "Esse é o terceiro video",
+    "title": "Node Rocketseat",
+    "description": "Esse é um novo video",
     "duration": 180
 }
 ###
@@ -24,5 +24,3 @@ Content-Type: application/json
 }
 ###
 DELETE  http://localhost:3333/videos/a51180e0-b991-4ada-84e2-c0cdeeb99be9
-
-
