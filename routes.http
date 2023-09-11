@@ -2,7 +2,7 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "title": "Node Rocketseat",
+    "title": "ReactJS",
     "description": "Esse é um novo video",
     "duration": 180
 }
@@ -14,13 +14,13 @@ GET http://localhost:3333/videos
 GET http://localhost:3333/videos?search=Node
 ###
 
-PUT http://localhost:3333/videos/4c2fa05d-f27a-4192-a0ca-ed44cbffbb9f
+PUT http://localhost:3333/videos/5fb2e96d-31d4-4bd3-824f-a133b817d8e2
 Content-Type: application/json
 
 {
-    "title": "Video ReactJS",
+    "title": "ReactJS",
     "description": "Novo video Reactjs",
     "duration": 180
 }
 ###
-DELETE  http://localhost:3333/videos/a51180e0-b991-4ada-84e2-c0cdeeb99be9
+DELETE  http://localhost:3333/videos/5fb2e96d-31d4-4bd3-824f-a133b817d8e2
